@@ -292,4 +292,4 @@ p3.onclick(chgsiz18 , 1)
 p4.onclick(chgsiz24 , 1)
 p0.onclick(chgsiz2 , 1)
 
-# turtle.mainloop()
+turtle.mainloop()
