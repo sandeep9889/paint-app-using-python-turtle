@@ -1,6 +1,6 @@
 from tkinter import*
 
-current_x,current_y = 0,0
+current_x,current_y = 0,0,0
 color = 'black'
 def locate_xy(event):
     global current_x,current_y
