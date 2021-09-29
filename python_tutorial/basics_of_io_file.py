@@ -36,6 +36,6 @@ reset =  f.seek() #it will reset file pointer like  f.seek(10) so here it will s
 
 f.read()
 
-
+f.close()
 
 
