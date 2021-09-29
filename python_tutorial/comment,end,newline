@@ -1,2 +1,0 @@
-print("aur kya haal h",end=" " ) # here end charcter used to prevent new line .
-print("bs badiya")
