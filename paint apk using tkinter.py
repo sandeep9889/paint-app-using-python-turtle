@@ -22,12 +22,12 @@ def new_canvas():
     display_pallete()
 
 
-window = Tk() #by this we can make gui
+ window = Tk() #by this we can make gui
 window.title('paint apk')
-window.state('zoomed')#by this our gui sed zoomed
+ window.state('zoomed')#by this our gui sed zoomed
 window.config(bg='red')
 
-window.rowconfigure(0, weight=1)
+ window.rowconfigure(0, weight=1)
 window.columnconfigure(0,weight=1)
 
 menubar = Menu(window)
@@ -55,7 +55,7 @@ def display_pallete():
     id=Canvas.create_rectangle((10,100,30,120),fill='red')
     Canvas.tag_bind(id,'<Button-1>', lambda x:show_color('red'))
 
-    id=Canvas.create_rectangle((10,130,30,150),fill='orange')
+   id=Canvas.create_rectangle((10,130,30,150),fill='orange')
     Canvas.tag_bind(id,'<Button-1>', lambda x:show_color('orange'))
 
     id=Canvas.create_rectangle((10,160,30,180),fill='yellow')
@@ -70,6 +70,6 @@ def display_pallete():
     id=Canvas.create_rectangle((10,250,30,270),fill='purple')
     Canvas.tag_bind(id,'<Button-1>', lambda x:show_color('purple'))
 
-display_pallete()
-# Canvas.create_line(20,20,60,20) # here in the manner (x,y,x,y) so here two point one is(20,20)and another is (60,20)
-window.mainloop() #by this we can check the work properly
+ display_pallete()
+ Canvas.create_line(20,20,60,20) # here in the manner (x,y,x,y) so here two point one is(20,20)and another is (60,20)
+ window.mainloop() #by this we can check the work properly
