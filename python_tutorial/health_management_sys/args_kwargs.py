@@ -12,9 +12,9 @@ def funargs(normal, *argsrohan, **kwargsbala):
 
 # function_name_print("Harry", "Rohan", "Skillf", "Hammad", "Shivam")
 
-har = ["Harry", "Rohan", "Skillf", "Hammad",
+har = ["sandeep", "Rohan", "Skillf", "Hammad",
        "Shivam", "The programmer"]
 normal = "I am a normal Argument and the students are:"
-kw = {"Rohan":"Monitor", "Harry":"Fitness Instructor",
+kw = {"Rohan":"Monitor", "sandeep":"Fitness Instructor",
       "The Programmer": "Coordinator", "Shivam":"Cook"}
 funargs(normal, *har, **kw)
