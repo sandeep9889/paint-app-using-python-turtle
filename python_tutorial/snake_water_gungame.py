@@ -1,6 +1,9 @@
 #snake water gun game
 import random
 list = ["S","W","G"]
+user_input = 0
+computer_point = 0
+total_input = 10
 c  = random.choice(list)
 n=1
 while(n<10):
