@@ -30,18 +30,30 @@ def logno(string):
 
 if __name__ == "__main__":
    musicloop("water.mp3.mp3","stop")
-   # init_water  = time()
-   # init_eye = time()
-   # init_exercise = time()
-   # watersec = 5
-   # eyesec = 10
-   # exersec = 15
+   init_water  = time()
+   init_eye = time()
+   init_exercise = time()
+   watersec = 5
+   eyesec = 10
+   exersec = 15
 
-   # if time()-init_water > watersec:
-   #    print("water drinking time . enter drank to stop the alarm")
-   #    musicloop("water.mp3.mp3", "drank")
-   #    init_water = time()
-   #    logno("drank water at")
+   if time()-init_water > watersec:
+      print("water drinking time . enter drank to stop the alarm")
+      musicloop("water.mp3.mp3", "drank")
+      init_water = time()
+      logno("drank water at")
+
+   if time()-init_eye > eyesec:
+      print("water drinking time . enter drank to stop the alarm")
+      musicloop("water.mp3.mp3", "drank")
+      init_water = time()
+      logno("go exercise at")  
+
+   if time()-init_exercise > exersec:
+      print("water drinking time . enter drank to stop the alarm")
+      musicloop("water.mp3.mp3", "drank")
+      init_water = time()
+      logno("go exercise at")       
 
 
 
