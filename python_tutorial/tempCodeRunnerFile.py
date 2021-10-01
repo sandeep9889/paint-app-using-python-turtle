@@ -1,3 +1,3 @@
-
-# f = open("sandeep.txt1","w") #here is no sandeep1.txt file but it will build it self
-# f.write("hello sandeep kaise ho")
+lst = ["jhon","cena","randi", "orton","khali","jindar mahal"]
+# for item in lst:
+#     print(item, end = " ")
