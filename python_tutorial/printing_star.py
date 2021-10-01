@@ -6,13 +6,15 @@ inp1 = bool(int(input("which start pattern you want if upward press any except 0
 i=1
 j=1
 if(inp1 == True):
-    while(i<inp):
-        for j in i:
-            print("*")
-            i= i+1
+    for i in range(1,inp+1):
+        for j in range(i):
+            print("*",end ="")
+            
+        print()    
 
 elif(inp1 == False):
-    for i in inp:
-        for inp  in 0 :
-            print("*")
-            i= i+1
+    for i in range(inp,0,-1):
+        for j in range(i,0,-1) :
+            print("*",end = "")
+            
+        print()
