@@ -29,6 +29,6 @@ sandeep.no_of_leaves = 12 #it can not posiible because we have change class vari
 
 print(Employ.no_of_leaves)
 
-print(sandeep.__dict__)
+print(sandeep.__dict__)  #herer dicrt func tion use to find no of vartible define
 
 
