@@ -11,5 +11,6 @@ sandeep.branch = "aiads"
 kumar.name = "shiv"
 kumar.clg  = "baktara sarkari"
 kumar.branch = "cse"
+kumar.subject = ["coa","dsa"]
 
-print(sandeep.name,sandeep.clg,kumar.clg)
+print(sandeep.name,sandeep.clg,kumar.clg,kumar.subject)
