@@ -16,7 +16,7 @@ sandeep =Employ("sandeep",255,"developer")#if any attribute written on class lik
 # sandeep.name= "sandeep" 
 # sandeep.salary = "30k"
 # sandeep.role = "developer"
-print(sandeep.printdetails())
+# print(sandeep.printdetails())   # it sandeep connected to function printdetails by self
 
 
 print(sandeep.role)
