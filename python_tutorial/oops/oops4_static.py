@@ -21,10 +21,10 @@ class Employ:
 
 
 
-# sandeep =Employ("sandeep",255,"developer")
-# sandeep.change_leaves(25)   #it can be use class varible by instance variable using function @classmethod
-# print(sandeep.no_of_leaves)
-# sandeep.printany("sanday")
+sandeep =Employ("sandeep",255,"developer")
+sandeep.change_leaves(25)   #it can be use class varible by instance variable using function @classmethod
+print(sandeep.no_of_leaves)
+sandeep.printany("sanday")
 
 sandeep=Employ.dashremover("sanday-325-student")
 print(sandeep)
