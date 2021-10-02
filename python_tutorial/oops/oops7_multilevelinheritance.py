@@ -1,3 +1,4 @@
+#here is example of multil;evel inheritence
 class electronicdevice:
     time ="10hr"
     memory = "1tb"
