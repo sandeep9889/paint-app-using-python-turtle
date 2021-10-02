@@ -47,13 +47,13 @@ if __name__ == "__main__":
 
    if time()-init_eye > eyesec:
       print("water drinking time . enter drank to stop the alarm")
-      musicloop("water.mp3.mp3", "drank")
+      musicloop("eye.mp3.mp3", "drank")
       init_water = time()
       logno("go exercise at")  
 
    if time()-init_exercise > exersec:
       print("water drinking time . enter drank to stop the alarm")
-      musicloop("water.mp3.mp3", "drank")
+      musicloop("waterdrinkmp3.mp3", "drank")
       init_water = time()
       logno("go exercise at")       
 
