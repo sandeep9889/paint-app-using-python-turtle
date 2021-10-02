@@ -7,6 +7,8 @@ for water - 3.5liter it means 200ml glass has to be done between 9 to 5
 for eye every 30min to do exercise = 16 times -eydone log
 for physical every half an hour  = 16 time-exdone log-40min
 """
+#it can help full for programmers
+
 from datetime import datetime
 from pygame import init, mixer 
 from time import time
