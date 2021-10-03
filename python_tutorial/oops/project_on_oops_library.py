@@ -15,11 +15,14 @@ class library:
     def __init__(self,list_of_books,libholder):
         self.list_of_books = list_of_books
         self.librarayholder = libholder
-        self.lendin = []
+        self.lendict = []
 
         
-    def lendin(user,book):
-        pass
+    def lendin(self,user,book):
+        if book not in self.lendict.key:
+            self.lendict.update({book:user})
+            print("book has been updated")
+        
 
     def returnbook():
         pass
