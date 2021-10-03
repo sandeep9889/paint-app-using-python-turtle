@@ -21,7 +21,7 @@ class library:
     def lendin(self,user,book):
         if book not in self.lendict.key:
             self.lendict.update({book:user})
-            print("book has been updated")
+            print("lender book data base has been updated")
         
 
     def returnbook():
