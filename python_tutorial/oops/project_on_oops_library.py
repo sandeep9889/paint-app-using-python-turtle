@@ -15,10 +15,23 @@ class library:
     def __init__(self,list_of_books,libholder):
         self.list_of_books = list_of_books
         self.librarayholder = libholder
-    
+        self.lendin = []
+
+        
+    def lendin(user,book):
+        pass
+
+    def returnbook():
+        pass
+
+    def addbook():
+        pass
+
     @property
     def display(self):
-        print(f"librarian {self.librarayholder}  librarian having books {self.list_of_books}")
+        print(f"we have library {self.librarayholder} ")
+        for book in self.list_of_books:
+            print(book)
 
     @display.setter
     def display(Self,string):
