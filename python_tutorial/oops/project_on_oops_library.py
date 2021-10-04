@@ -9,6 +9,9 @@ make a attribute
 and make a dictionary"""
 
 
+from _typeshed import Self
+
+
 class library:
 
 
@@ -21,14 +24,18 @@ class library:
     def lendin(self,user,book):
         if book not in self.lendict.key:
             self.lendict.update({book:user})
-            print("lender book data base has been updated")
+            print("lender book data base has been updated . you can take the book now")
+        else:
+            print(f"the book has beeen issued by {self.lendict[book]}")    
         
 
-    def returnbook():
-        pass
+    def returnbook(self,user,book):
+        self.list_of_books.remove(book)
+        print(f"book {book} has been return by {user}")
 
-    def addbook():
-        pass
+    def addbook(self,book):
+        Self.list_of_book.append(book)
+        print(f"book has been added to book_list")
 
     @property
     def display(self):
@@ -38,7 +45,8 @@ class library:
 
     @display.setter
     def display(Self,string):
-        return Self.list_of_books + string.split[","]
+        # return Self.list_of_books + string.split[","]
+        pass
         
 
 
