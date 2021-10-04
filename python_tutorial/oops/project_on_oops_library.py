@@ -9,7 +9,7 @@ make a attribute
 and make a dictionary"""
 
 
-from _typeshed import Self
+
 
 
 class library:
@@ -34,7 +34,7 @@ class library:
         print(f"book {book} has been return by {user}")
 
     def addbook(self,book):
-        Self.list_of_book.append(book)
+        self.list_of_book.append(book)
         print(f"book has been added to book_list")
 
     @property
@@ -43,10 +43,7 @@ class library:
         for book in self.list_of_books:
             print(book)
 
-    @display.setter
-    def display(Self,string):
-        # return Self.list_of_books + string.split[","]
-        pass
+    
         
 
 
@@ -54,8 +51,26 @@ class library:
 if __name__ =="__main__":
 
     sandeep = library(["chetan bhagat","harryporter","richdad poordad","time management","attitude"], "sandeep library") 
-    sandeep.display = "araybhata,ramajun,elon musk ,the fairy tails"
-    print(sandeep.display)
     
-    
+
+    while(True):
+        print(f"welcome to the {sandeep.librarayholder} libraray.enter your choice to continew")
+        print("1 . display books")
+        print("2 . lend books")
+        print("3 . add a book")
+        print("4 . return a books")
+        user_choice = int(input())
+
+        if user_choice ==1:
+            sandeep.display
+        elif user_choice ==2:
+            sandeep.lendict()
+
+        elif user_choice ==3:
+            sandeep.addbook()
+
+        elif user_choice ==4:
+            sandeep.returnbook()            
+        
+
 
