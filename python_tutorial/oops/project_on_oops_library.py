@@ -18,11 +18,11 @@ class library:
     def __init__(self,list_of_books,libholder):
         self.list_of_books = list_of_books
         self.librarayholder = libholder
-        self.lendict = []
+        self.lendict={}
 
         
     def lendin(self,user,book):
-        if book not in self.lendict:
+        if book not in self.lendict.key():
             self.lendict.update({book:user})
             print("lender book data base has been updated . you can take the book now")
         else:
