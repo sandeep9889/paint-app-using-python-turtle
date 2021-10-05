@@ -9,4 +9,16 @@ print(lst)
 
 #set comprehension
 dres ={dress for dress in ["dress1","dress2","dress1","dress1"]}
-print(dres) #set is nothing it just return only one single element
+print(dres) #set is nothing it just return only one single element 
+
+#generator comprehension
+
+even = ( i for i in range(100) if i%2==0) #it is called generator 
+print(even.__next__()) #by this you can only find single result 
+print(even.__next__()) #by this you can only find single result 
+
+for item in (even):   #here you can find directly
+    print(item)
+
+
+
