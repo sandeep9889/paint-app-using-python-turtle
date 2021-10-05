@@ -9,4 +9,4 @@ print(lst)
 
 #set comprehension
 dres ={dress for dress in ["dress1","dress2","dress1","dress1"]}
-print(dres)
+print(dres) #set is nothing it just return only one single element
