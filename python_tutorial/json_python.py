@@ -1,3 +1,3 @@
 #javascript object notation
 # json used to send aur export data from web
-import json
+import json as js
