@@ -1,10 +1,4 @@
-1) first you build txt fuile
-2) A then on the folder where file was open  
-B then click shift butten and right click then open powershell window
-3) then python main.txt to run the file
-4) then pyinsataller filename 
-5)then go to dist 
-6)then on dist click on main.exe <but here is problem then you must go to powershell when on click main.exe programme will turn off and then type main.exe on powershell>
+
 a= int(input())
 b= int(input())
 add = a+b
