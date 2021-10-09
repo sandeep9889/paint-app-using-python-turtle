@@ -1,19 +1,20 @@
-lst = ["56","54","86"]
-# for i in range(len(lst)): #har jagah for loop chalana acha nahi h jb apn single line m kre sakte h jaise ki map function
-#     lst[i] = int(lst[i])
-# lst[2] = lst[2]+1
-# print("by loop",lst[2]) 
+    with open("iris_data.txt", "w") as f:
+#         f.writelines(mydata.text) 
+#     with open("iris_data.txt") as f:
+#         iris_contents = f.readlines()
+#     return iris_contents
 
+# iris_list = []
+# for line in fetch_data(url):
+#     iris_list.append([line.replace("\n","")])
 
-# lst=list(map(int,lst))   #map  m pahela argument jo h vo jo krna chahte ho like if you want to integer it and 2nd jo kis pr krna chahte ho vo h
-#                         #aur map jo hota h vo ek obj hota h to usko list  m convert krdo
-# lst[2] = lst[2]+1
-# print("by map function",lst[2])      
+# with open(iris_pkl_file, "wb") as file_obj:
+#     pickle.dump(iris_list, file_obj)
 
+# with open(iris_pkl_file, "rb") as file_obj:
+#     myStr = pickle.load(file_obj)
 
-
-# #an other use of map function  with lambda function
-# num = [2,4,5,6,1,2,3,52]
-# num = list(map(lambda x:x*x,num,))
-
-# print(num)
+# print("-----Output: iris Data ---------")
+# for item in myStr:
+#     print(item, "\n",end="")
+# print("Number of items is ", len(myStr))
