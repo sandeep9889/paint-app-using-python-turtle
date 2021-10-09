@@ -1,3 +1,4 @@
+#HER raise is to avoid to furtur move of progrmamme when it is to be finished
 a = input("what is your name")
 b = int(input("how much you earn"))
 key = [1,2,3]
