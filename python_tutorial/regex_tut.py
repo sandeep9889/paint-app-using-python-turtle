@@ -33,7 +33,7 @@ r"ain\B"
 
 
 import re
-mystr = ("hello dosto mera number h +919630228313")
+mystr = ("hello dosto mera number h +919630228313 and +918319909465")
 patt=re.compile(r'.+91\d{10}')
 matches=patt.finditer(mystr)
 for match in matches:
